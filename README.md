@@ -7,14 +7,16 @@ Design patterns are typical solutions to commonly occurring problems in software
 
 ## Gang of Four
 The GoF design patterns are broken into three categories:
-* Behavioral
-take care of communication and the assignment of responsibilities between objects
-* Creational
+* Behavioral\
+<\br>take care of communication and the assignment of responsibilities between objects
+* Creational\
 provide object creation mechanisms with flexibility and reusing of existing code
-* Structural
+* Structural\
 explain how to assemble objects into larger structures
 
+### Creational
+* [Builder](https://github.com/polok/design-patterns-with-swift/blob/main/Gang-of-Four/Creational/Builder/Builder.md)
 
 
-Sources:
+## 📑 Sources:
 [GoF](https://en.wikipedia.org/wiki/Design_Patterns)
