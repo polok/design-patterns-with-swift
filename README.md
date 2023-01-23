@@ -8,7 +8,7 @@ Design patterns are typical solutions to commonly occurring problems in software
 ## Gang of Four
 The GoF design patterns are broken into three categories:
 * Behavioral\
-<\br>take care of communication and the assignment of responsibilities between objects
+take care of communication and the assignment of responsibilities between objects
 * Creational\
 provide object creation mechanisms with flexibility and reusing of existing code
 * Structural\
