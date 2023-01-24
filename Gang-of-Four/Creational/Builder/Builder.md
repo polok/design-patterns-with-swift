@@ -137,7 +137,13 @@ let httpResponse = HTTPResponse(urlRequest: urlRequest)
 	.set(\.error, with: error)
 ```
 
-## Solution 4:
+## Solution 5: More advance usage using `Builder` protocol
+A way to make our builder implementation more advanced, is to create a builder as a protocol, and having different concrete builder classes to implement necessary builder protocol functions, such as `build()`.
+
+## Solution 6: Director
+Useful, when producing objects according to a specific order or configuration. A `Director` takes a builder as a parameter and it is only responsible for executing the building steps in a particular sequence.
+
+## Solution 7:
 No surprise, that there is no one proper solution when it comes to writing code. Also here, there are more variations of implementing of builder pattern.
 
 ## Conclusion
