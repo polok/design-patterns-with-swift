@@ -13,16 +13,19 @@ public final class HTTPMethodBuilder {
         self.method = method
     }
     
+    @discardableResult
     public func with(url: URL) -> Self {
         self.url = url
         return self
     }
     
+    @discardableResult
     public func with(headers: [String: String]) -> Self {
         self.headers = headers
         return self
     }
     
+    @discardableResult
     public func with(path: String) -> Self {
         self.path = path
         return self
